@@ -1,0 +1,59 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.container-row
+{
+    display: flex;
+    flex-direction: row; /* Por defecto ya es así */
+    flex-wrap: wrap; /* en WRAP respetara el tamaño de los hijos si es que fueron definidor y NOWRAP no los respetará */
+    justify-content: space-between;
+    background-color: white;
+}
+.container-logos
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 1em;
+}
+.container-sign
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1em;
+}
+.logearse
+{
+    margin: 0px 20px 0px 0px;
+    padding: 5px;
+    border-radius: 2em;
+    background-color: salmon;
+    border-color: white;
+}
+.img-logos
+{
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+}
+.lista
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.lista li a
+{
+    text-decoration: none;
+}
+.container-nav
+{
+    background-color: #86ba10;
+}
