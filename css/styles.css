@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lobster");
 *
 {
     padding: 0;
@@ -30,6 +31,10 @@ body
     flex-direction: row;
     flex-wrap: wrap;
     margin: 1em;
+}
+.titulo h1
+{
+    font-family: Lobster;
 }
 .titulo-img
 {
